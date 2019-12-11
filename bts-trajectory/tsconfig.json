@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "outDir": "./build",
+    "noEmit": true,
+    "strict": true,
+    "rootDir": "./",
+    "baseUrl": "./",
+    "paths": {
+      "#config": ["./src/configs/config"],
+      "#data/*": ["./src/data/*"],
+      "#logger": ["./src/log/logger"],
+      "#profiles": ["./src/profiles"],
+      "#routes/*": ["./src/routes/*"],
+      "#types": ["./src/types"],
+      "#utils/*": ["src/utils/*"],
+      "#src/*": ["./src/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "removeComments": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "sourceMap": true,
+    "noImplicitAny": true,
+    "lib": ["es6", "esnext"],
+    "esModuleInterop": true,
+    "resolveJsonModule": true
+  },
+  "include": ["src"],
+  "exclude": ["build"]
+}

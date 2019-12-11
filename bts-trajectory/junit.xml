@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="7" failures="0" time="5.126">
+  <testsuite name="src/logger" errors="0" failures="0" skipped="0" timestamp="2019-12-11T20:53:08" time="1.715" tests="6">
+    <testcase classname="src/logger isLogLevel() returns true if the string is a valid log level" name="src/logger isLogLevel() returns true if the string is a valid log level" time="0.002">
+    </testcase>
+    <testcase classname="src/logger isLogLevel() returns false if the string is not a valid log level" name="src/logger isLogLevel() returns false if the string is not a valid log level" time="0">
+    </testcase>
+    <testcase classname="src/logger isLogLevel() returns false if the provided log level is not a string" name="src/logger isLogLevel() returns false if the provided log level is not a string" time="0">
+    </testcase>
+    <testcase classname="src/logger isLogLevel() returns false if no log level is provided" name="src/logger isLogLevel() returns false if no log level is provided" time="0">
+    </testcase>
+    <testcase classname="src/logger toLoggerName Converts the file name to a relative path from the root" name="src/logger toLoggerName Converts the file name to a relative path from the root" time="0.001">
+    </testcase>
+    <testcase classname="src/logger toLoggerName Does not convert names that do not resemble a file name" name="src/logger toLoggerName Does not convert names that do not resemble a file name" time="0">
+    </testcase>
+  </testsuite>
+  <testsuite name="router should contain the" errors="0" failures="0" skipped="0" timestamp="2019-12-11T20:53:08" time="2.302" tests="1">
+    <testcase classname="router should contain the health check path" name="router should contain the health check path" time="0.003">
+    </testcase>
+  </testsuite>
+</testsuites>

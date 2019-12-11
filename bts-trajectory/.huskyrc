@@ -1,0 +1,7 @@
+{
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "run-p typecheck lint-staged",
+      "pre-push": "run-p test test:security"
+    }
+}

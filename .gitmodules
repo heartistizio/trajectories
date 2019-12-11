@@ -1,0 +1,7 @@
+[submodule "bts-trajectory"]
+	path = bts-trajectory
+	url = https://github.com/heartistizio/bts-trajectory
+
+[submodule "trajectory-map"]
+	path = bts-trajectory
+	url = https://github.com/heartistizio/trajectory-map
